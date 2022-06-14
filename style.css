@@ -1,0 +1,123 @@
+.container{
+  max-width: 1200px;
+  margin: 0 auto; /* Centralizando o conteúdo*/
+}
+
+
+.menu {
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-flex {
+  display: flex;
+  align-items: center;    
+}
+
+.menu-column {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: flex-start;
+}
+
+.menu-column.menu-second-column {
+  justify-content: flex-end;
+}
+
+.menu-nav ul {
+  display: flex;
+  list-style: none;
+  gap: 10px; /* Vamos utilizar essa propriedade do flex para colocar um espaçamento entre os elementos*/
+}
+
+.menu-nav ul li a {
+  text-decoration: none;
+  color: #585e65;
+}
+
+.menu-link-button {
+  text-decoration: none;
+  height: 48px;
+  background-color: #4c6ef5;
+  color: #fff;
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.menu-link-button2 {
+  text-decoration: none;
+  height: 38px;
+  background-color: #4c6ef5;
+  color: #fff;
+  padding: 0 26px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.products-wrapper{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+   
+  }
+
+
+
+
+li {
+  display: flex;
+  border-bottom: flex ;
+ }
+
+
+
+ .lista-itens{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;        
+      justify-content: space-between;          
+      list-style: none;
+      
+ }
+
+ .card{
+  display: flex;
+  flex-direction: column;    
+  align-items: center;
+  justify-content: space-between;
+  width: 295px;   
+  box-sizing: border-box;
+  padding: 10px 8px;
+  background-color:#ffffff; 
+  margin-bottom: 34px;
+  border-radius: 8px;   
+ }
+
+ .image-card{
+  width: 100%;
+  
+ }
+
+ .textos-1{   s   
+  font-size: 16px;           
+  color: #000000;
+  
+
+
+ }
+
+ body{
+  font-family: 'Inter', sans-serif;
+ }
+
+ .logo{  
+  color: #000000;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px; 
+ }   
